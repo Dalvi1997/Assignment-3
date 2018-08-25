@@ -1,0 +1,11 @@
+l=["Physics","Chemistry","Maths","Physics","Maths","Science","Maths","Biology","Biology","Chemistry"]
+a=set(l)
+b=list(a)
+b.sort()
+print("word_list=",b)
+v=l.count(b[0])
+w=l.count(b[1])
+x=l.count(b[2])
+y=l.count(b[3])
+z=l.count(b[4])
+print("count _list=",[v,w,x,y,z])
