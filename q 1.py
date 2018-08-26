@@ -1,4 +1,5 @@
-l=[1,2,3,4]
+l=[1]
 n=int(input("Enter n"))
-l.append(n)
+for i in range (2,n+1):
+    l.append(i)
 print("New list is=",l)
